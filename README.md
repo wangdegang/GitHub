@@ -1,18 +1,18 @@
-# Git and GitHub
+# How to Use GitHub
 
 ## Introduction
 Program code is developed in a process of creation, modification, testing, revizing, and finalizing. It may undergo many versions before it
 can be used for production. Tools are needed to keep track of changes in each version. Git is such an exceptional tool for this purpose, a
-version control system (VCS) or source code management. Every time a version of a file is committed or saved in Git, it take a snapshot of
+version control system (VCS) or source code management. Every time a version of a file is committed or saved in Git, it takes a snapshot of
 the file. It allows multiple programmers to work on a project together and synchronizes the version control on each programmer's local
 machine. Thus, Git is a fully distributed system with a fast speed.
 
 GitHub is a web-based Git service. It provides all of the distributed version control and source code management functionality of Git and
-some its own features. GitHub offers both private and free account plans. In the free plan, project repositories are open to the public.
-GitHub users can create project repositories, modify and manage them. These projects can almost be anything, such as programm code, blogs,
+its own features. GitHub offers both private and free account plans. In the free plan, project repositories are open to the public.
+GitHub users can create project repositories, modify and manage them. These projects can almost be anything, such as program code, blogs,
 study notes, and so on. GitHub can create URL of these repositories so that they can be shared conveniently. A user can interact with
-other users by following, watching, or forking repositories. It becomes a social medium for programmers, just like LinkIn and Facebook.
-GitHub is commonly used to host open-source software projects, such as [Apache spark project](https://github.com/apache/spark). Everyone
+other users by following, watching, or forking repositories. It becomes a social medium for programmers, just like LinkedIn and Facebook.
+GitHub is commonly used to host open-source software projects, such as [Apache Spark project](https://github.com/apache/spark). Everyone
 can review, clone, and make contributions to these projects. 
 
 In the following, I will talk about GitHub account creation, Git installation, and project repository creation. After learning these,
@@ -20,7 +20,7 @@ readers will be able to use Git and GitHub to manage repositories. The examples 
 
 ## GitHub Account
 Go to <https://github.com/join> to create an account using your email and select a user name. The public account is free. The private
-account is $7/month. You can choose which repositories to be apublic from your private account.
+account is $7/month. You can choose which repositories to be public from your private account.
 
 ## Git Installation
 Go to <https://git-scm.com/download/win> to download Git. An alternative way to get Git is to installation
@@ -45,9 +45,9 @@ means that you have marked a modified file in its current version to go into you
 sections of a Git project: the Git directory, the working directory, and the staging area.
 
 The basic Git workflow goes something like this:
->1. You modify files in your working directory.
->2. You stage the files, adding snapshots of them to your staging area.
->3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+1. You modify files in your working directory.
+2. You stage the files, adding snapshots of them to your staging area.
+3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
 This workflow can be illustrated by the following figure (adopted from **Pro Git**, 2nd edition, by *Scott Chacon* and *Ben Straub*)
 ![alt text](./docs/git_stages.png)
