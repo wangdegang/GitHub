@@ -136,7 +136,10 @@ repositories to GitHub where you can share with GitHub community. Enjoy it and b
 
 
 
-
+## Markdown
+Markdown is a way to format the display of plan text on web by using some special characters.
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+[GitHub Markdown supports syntax highlighting for a large number of [languages](http://tinker.kotaweaver.com/blog/?p=152)
 
 
 
